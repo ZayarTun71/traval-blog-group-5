@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.l_wrapper {
+   height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 1px solid black;
+    backdrop-filter: blur(5px);
+
+}
+
+.wrapper {
+    width: 350px;
+    padding: 34px;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 6.5);
+}
+
+.wrapper h1 {
+    color: black;
+}
+
+.input_box {
+    height: 40px;
+    margin: 18px 0;
+}
+
+.input_box input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding: 0 15px;
+    border: 1.5px solid #C7BEBE;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    background-color: #4a453747;
+    color: black;
+}
+
+.input_box input:focus,
+.input_box input:valid {
+    border-color: #4070f4;
+}
+
+.policy {
+    display: flex;
+    align-items: center;
+}
+
+.policy h3 {
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.text h3 {
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.register input {
+    color: #fff;
+    font-size: 15px;
+    height: 40px;
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border: none;
+    margin: 15px 0px;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    background-color: #0e4bf1;
+}
+
+.register input:hover {
+    background-color: #0a2777;
+    transition: all 0.3s ease;
+}
+
+.text a {
+    color: #0e4bf1;
+    text-decoration: none;
+}

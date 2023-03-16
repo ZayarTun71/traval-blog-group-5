@@ -1,0 +1,85 @@
+
+@import url('https://fontlibrary.org//face/nemoy');
+.mainad1{
+    display:flex;
+    flex-wrap:wrap;
+    height:auto;
+    background:red;
+    position:relative;
+    margin-bottom:150px;
+}
+.mainad1 div{
+    width:50%;
+    overflow:hidden;
+}
+.mainad1 div img{
+    height:100%;
+    width:100%;
+    transition:all 1s;
+    position:relative;
+}
+.mainad1 div img:hover{
+    transform:scale(1,1.2);
+    transition:all 1s;
+}
+.ad1txt{
+    display:inline-block;
+    font-size:40px;
+    position:absolute;
+    height:100px;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto auto;
+    text-align:center;
+    color: white;
+    z-index:3;
+    font-family: 'NemoyMedium';
+    font-weight: normal;
+    font-style: normal;
+}
+.bgtxt{
+    position:absolute;
+    height:150px;
+    width:200px !important;
+    left:200px;
+    top:0;
+    bottom:0;
+    margin:auto;
+    z-index:3;
+    opacity:0;
+    transition:all 1s;
+    color:white;
+}
+.bgtxt p,.bgtxttwo p{
+    font-weight:bold;
+}
+.bgtxttwo{
+    position:absolute;
+    height:150px;
+    width:200px !important;
+    right:200px;
+    top:0;
+    bottom:0;
+    margin:auto;
+    z-index:3;
+    opacity:0;
+    transition:all 1s;
+    color:white;
+
+}
+.mainad1 div:hover .bgtxt{
+    display:inline-block;
+    transform:translate(-100px);
+    opacity:1;
+    transition:all 1s;
+    /* z-index:3; */
+}
+.mainad1 div:hover .bgtxttwo{
+    display:inline-block;
+    transform:translate(100px);
+    opacity:1;
+    transition:all 1s;
+    /* z-index:3; */
+}

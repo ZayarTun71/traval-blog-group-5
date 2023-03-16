@@ -1,0 +1,56 @@
+
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css);
+@import url('https://fontlibrary.org//face/nemoy');
+
+.header{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    border-bottom:solid 1px rgba(0,0,0,1);
+    box-shadow:0px 0px 20px rgba(0,0,0,1);
+    position:fixed;
+    width:100%;
+    height: 90px;
+    color:black;
+    z-index:10;
+    background-color: white;
+}
+.display{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    align-items:center;
+    height: 100%;
+}
+nav{
+    width: 800px;
+    height: 100%;
+}
+.navul{
+    width: 100%;
+    height: 90px;
+    display:flex;
+    list-style:none;
+}
+.navul li{
+    width: calc(100%/8);
+    height: 90px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navul li a{
+    height: 90px;
+    width: 100%;
+    text-decoration:none;
+    border: 5px solid transparent;
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navul li a:hover{
+    border-bottom: 5px solid rgb(46, 224, 162);
+    transition:  0.5s;
+}
